@@ -1,0 +1,11 @@
+table, td{
+  table-layout    : fixed;
+  width           : 70%;
+  border          : 1px solid black;
+  text-align      : center;
+  border-collapse : collapse;
+}
+
+th {
+    background-color : gray;
+}

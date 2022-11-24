@@ -1,0 +1,77 @@
+/* miseEnPage.css
+octobre 2011 */
+
+body {margin: 0px;
+}
+
+div {padding: 8px;
+}
+
+.haut {color: blue;
+  border: 3px solid cyan;
+
+/* AJOUT */
+  padding: 0px;
+  height: 90px;
+}
+
+.milieu {
+  display: table; /* Affichage comme pour un tableau */
+  padding: 0px;
+  color: red;
+  border: 5px solid yellow;
+  clear : both; /* aucun élément flottant n'est accepté à gauche et à droite du bloc */
+}
+
+.bas {color: green;
+  border: 3px solid magenta;
+}
+
+.menu {
+  width: 200px;
+  display:table-cell; /* Affichage comme pour des cellules de tableau */
+  color: #C90; /* olive */
+  border: 2px solid #C90;
+}
+
+.menu a {text-decoration: none;
+  color: black;
+}
+
+.menu a:hover {color: red;
+  font-weight: bold;
+}
+
+.menu li {list-style-type: none;
+  padding: 6px;
+  background-color: #FDD; /* olive */
+  margin-bottom: 1px;
+}
+
+.contenu {
+  margin-left: 204px;
+  display:table-cell;
+  color: #09C; /* bleu */
+  border: 2px solid #09C;
+}
+
+ul {
+  margin: 0px;
+}
+
+.hautCentre {
+  border: 2px solid red;
+  padding: 0px;
+  text-align: center;
+  margin-left: 250px;
+  font-size: 46px;
+  padding-top: 20px;
+  height: 66px; /* + le padding-top (20) + border rouge deux fois (4) = 90 */
+}
+
+.hautGauche {float: left;
+top: 0px;
+left: 0px;
+padding: 0px;
+}
+

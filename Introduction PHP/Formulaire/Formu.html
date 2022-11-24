@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Introduction au PHP</title>
+    <link rel="stylesheet" href="styleFormulaire.css">
+</head>
+<body>
+<form action="echo.php" method="get">
+    <fieldset>
+        <legend>Civilié</legend>
+        <label>M</label>
+        <input type="radio" name="genre" value="M">
+        <label>Mme</label>
+        <input type="radio" name="genre" value="Mme"> <br>
+    </fieldset>
+    <br>
+    <label for="nom"> Nom </label> <input name="nom" ><br/>
+    <label for="mdp"> Mot de passe </label> <input type="password" name="mdp" ><br/>
+
+    <fieldset>
+        <legend>Document demandé </legend>
+        <label for="doc1"> Doc 1</label><input type="checkbox" name="doc1"> <br/><br/>
+        <label for="doc2"> Doc 2</label><input type="checkbox" name="doc2"> <br/><br/>
+        <label for="doc3"> Doc 3</label><input type="checkbox" name="doc3">
+    </fieldset>
+    <br/>
+    Pays
+    <select name="pays">
+        <option value="e">France
+        <option selected value="f">français
+        <option value="i">italien
+    </select>
+    <br/>
+
+    <input type=submit value="Valider">
+    <input type=submit value="Valider2">
+    <input type=submit value="Annuler">
+
+</form>
+
+</body>
+</html>
