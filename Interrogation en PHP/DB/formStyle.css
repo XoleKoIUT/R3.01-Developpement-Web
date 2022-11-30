@@ -1,0 +1,98 @@
+table {
+    font-size: medium;
+    empty-cells: show;
+    margin-left : 25% ;
+    margin-right : 25% ;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr.vert{
+    background-color: #9F9;
+}
+
+th {
+    background-color: #FFC;
+}
+
+th, td {
+    padding: 6px 10px;
+    border: solid 1px black;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+div {
+    padding: 8px;
+}
+
+h1 {
+    font-size:150%;
+}
+
+ul {
+    margin: 0px;
+}
+
+.haut {
+    border-bottom: 2px solid silver;
+    padding: 0px;
+    height: 90px;
+}
+
+.milieu {
+    position:relative;
+    height:auto;
+    padding: 0px;
+}
+
+.bas {
+    color: green;
+    border: 3px solid magenta;
+}
+
+.hautCentre {
+    padding: 0px;
+    text-align: center;
+    margin-left: 250px;
+    font-size: 46px;
+    padding-top: 20px;
+    height: 70px; /* + le padding-top (20) + border rouge deux fois (4) = 90 */
+}
+
+.hautGauche {
+    float: left;
+    padding: 0px;
+}
+
+.menu {
+    position:absolute;
+    width:210px;
+}
+
+.contenu {
+    position:absolute;
+    left:220px;
+    border-left: 2px solid silver;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu a:hover {
+    color: red;
+    font-weight: bold;
+}
+
+.menu li {
+    list-style-type: none;
+    padding: 6px;
+    background-color: #DDD; /* gris */
+    margin-bottom: 1px;
+}
